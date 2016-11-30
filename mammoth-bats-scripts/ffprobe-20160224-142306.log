@@ -1,0 +1,39 @@
+ffprobe started on 2016-02-24 at 14:23:06
+Report written to "ffprobe-20160224-142306.log"
+Command line:
+ffprobe -v debug -report -print_format json -show_format -show_streams "/Volumes/Seagate Backup Plus Drive/CORO Bat Survey 2011/SOT_20Aug11/SOT_20Aug11_Cam1_Tape1.mov"
+ffprobe version 2.8.5 Copyright (c) 2007-2016 the FFmpeg developers
+  built with Apple LLVM version 7.0.2 (clang-700.1.81)
+  configuration: --prefix=/usr/local/Cellar/ffmpeg/2.8.5 --enable-shared --enable-pthreads --enable-gpl --enable-version3 --enable-hardcoded-tables --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-opencl --enable-libx264 --enable-libmp3lame --enable-libvo-aacenc --enable-libxvid --enable-vda
+  libavutil      54. 31.100 / 54. 31.100
+  libavcodec     56. 60.100 / 56. 60.100
+  libavformat    56. 40.101 / 56. 40.101
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 40.101 /  5. 40.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.101 /  1.  2.101
+  libpostproc    53.  3.100 / 53.  3.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fee5a006a00] Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fee5a006a00] Before avformat_find_stream_info() pos: 25460248843 bytes read:917950 seeks:4
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fee5a006a00] All info found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x7fee5a006a00] After avformat_find_stream_info() pos: 1974190 bytes read:2903486 seeks:5 frames:41
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Volumes/Seagate Backup Plus Drive/CORO Bat Survey 2011/SOT_20Aug11/SOT_20Aug11_Cam1_Tape1.mov':
+  Metadata:
+    creation_time   : 2011-08-22 11:18:09
+  Duration: 01:51:59.62, start: 0.361729, bitrate: 30311 kb/s
+    Stream #0:0(eng), 16, 1/2997: Video: dvvideo, 1 reference frame (dvc  / 0x20637664), yuv411p(bt470bg/smpte240m/bt709, topleft), 720x480 [SAR 8:9 DAR 4:3], 1001/30000, 28768 kb/s, SAR 10:11 DAR 15:11, 29.97 fps, 29.97 tbr, 2997 tbn, 29.97 tbc (default)
+    Metadata:
+      creation_time   : 2011-08-22 13:10:10
+      handler_name    : Apple Alias Data Handler
+      encoder         : DV/DVCPRO - NTSC
+    Stream #0:1(eng), 24, 1/48000: Audio: pcm_s16le (sowt / 0x74776F73), 48000 Hz, mono, s16, 768 kb/s (default)
+    Metadata:
+      creation_time   : 2011-08-22 13:10:10
+      handler_name    : Apple Alias Data Handler
+    Stream #0:2(eng), 1, 1/48000: Audio: pcm_s16le (sowt / 0x74776F73), 48000 Hz, mono, s16, 768 kb/s (default)
+    Metadata:
+      creation_time   : 2011-08-22 13:10:10
+      handler_name    : Apple Alias Data Handler
+detected 4 logical cores
+[AVIOContext @ 0x7fee595002e0] Statistics: 2903486 bytes read, 5 seeks

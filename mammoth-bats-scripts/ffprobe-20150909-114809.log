@@ -1,0 +1,112 @@
+ffprobe started on 2015-09-09 at 11:48:09
+Report written to "ffprobe-20150909-114809.log"
+Command line:
+ffprobe -v debug -report -print_format json -show_format -show_streams "/media/mammoth-bats-1/CORO Bat Survey 2011/SOT_6Aug11/SOT_06Aug11_Cam1_Tape1.mov"
+ffprobe version 2.7.2-1 Copyright (c) 2007-2015 the FFmpeg developers
+  built with gcc 4.9.3 (Debian 4.9.3-2)
+  configuration: --prefix=/usr --extra-version=1 --build-suffix=-ffmpeg --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --enable-shared --disable-stripping --enable-avresample --enable-avisynth --enable-frei0r --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopenjpeg --enable-openal --enable-libopus --enable-libpulse --enable-librtmp --enable-libschroedinger --enable-libshine --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libxvid --enable-libzvbi --enable-opengl --enable-x11grab --enable-libdc1394 --enable-libiec61883 --enable-libzmq --enable-libssh --enable-libsoxr --enable-libx264 --enable-libopencv --enable-libx265
+  libavutil      54. 27.100 / 54. 27.100
+  libavcodec     56. 41.100 / 56. 41.100
+  libavformat    56. 36.100 / 56. 36.100
+  libavdevice    56.  4.100 / 56.  4.100
+  libavfilter     5. 16.101 /  5. 16.101
+  libavresample   2.  1.  0 /  2.  1.  0
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  2.100 /  1.  2.100
+  libpostproc    53.  3.100 / 53.  3.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x1edb440] Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x1edb440] Before avformat_find_stream_info() pos: 26330359413 bytes read:1011654 seeks:6
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=96
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=76
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=66
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=88
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=65
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=68
+[dvvideo @ 0x1edbe60] AC EOB marker is absent pos=64
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x1edb440] All info found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x1edb440] After avformat_find_stream_info() pos: 1974198 bytes read:2997190 seeks:7 frames:41
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/media/mammoth-bats-1/CORO Bat Survey 2011/SOT_6Aug11/SOT_06Aug11_Cam1_Tape1.mov':
+  Metadata:
+    creation_time   : 2011-08-08 17:20:36
+  Duration: 01:55:48.62, start: 0.872539, bitrate: 30314 kb/s
+    Stream #0:0(eng), 16, 1/2997: Video: dvvideo, 1 reference frame (dvc  / 0x20637664), yuv411p(bt470bg/smpte240m/bt709, topleft), 720x480 [SAR 8:9 DAR 4:3], 1001/30000, 28767 kb/s, SAR 10:11 DAR 15:11, 29.97 fps, 29.97 tbr, 2997 tbn, 29.97 tbc (default)
+    Metadata:
+      creation_time   : 2011-08-08 19:16:27
+      handler_name    : Apple Alias Data Handler
+      encoder         : DV/DVCPRO - NTSC
+    Stream #0:1(eng), 24, 1/47997: Audio: pcm_s16le (sowt / 0x74776F73), 47997 Hz, mono, s16, 767 kb/s (default)
+    Metadata:
+      creation_time   : 2011-08-08 19:16:28
+      handler_name    : Apple Alias Data Handler
+    Stream #0:2(eng), 1, 1/47997: Audio: pcm_s16le (sowt / 0x74776F73), 47997 Hz, mono, s16, 767 kb/s (default)
+    Metadata:
+      creation_time   : 2011-08-08 19:16:29
+      handler_name    : Apple Alias Data Handler
+detected 8 logical cores
+[AVIOContext @ 0x1ed8200] Statistics: 2997190 bytes read, 7 seeks

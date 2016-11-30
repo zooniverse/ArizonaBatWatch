@@ -1,0 +1,13 @@
+mysql:
+  host: 'localhost'
+  username: 'root'
+  password: 'root'
+  database: 'mammoth-bats'
+manifest:
+  input:
+    - /Volumes/Seagate Backup Plus Drive/CORO Bat Survey 2011
+process:
+  upload_path: '/media/chris-drive/project-data/mammoth-bats/to_upload/subjects/subjects'
+panoptes:
+  project_id: '378'
+  subject_set_id: '523'

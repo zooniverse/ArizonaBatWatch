@@ -1,0 +1,13 @@
+mysql:
+  host: 'localhost'
+  username: 'root'
+  password: ''
+  database: 'SOT_2011-08-20'
+manifest:
+  input:
+    ['/Volumes/Seagate Backup Plus Drive/CORO Bat Survey 2011/SOT_2011-08-20']
+process:
+  upload_path: '/Volumes/Seagate Expansion Drive/projects-data/AZ-BatWatch/SOT_2011-08-20'
+panoptes:
+  project_id: ''
+  subject_set_id: ''
