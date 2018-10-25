@@ -17,7 +17,7 @@ The process was as follows:
 8. Export CSV from SQL db/table, creating full manifest.csv, used Sequel Pro
 9. Edit full manifest.csv if needed, considering metadata wanted, formatting, etc.
 10. Split full manifest.csv into batches (1,000-2,000) for upload into Panoptes
-11. Upload subjects with smaller manifest.csv in batches using [Panoptes-Subject-Uploader](https://github.com/zooniverse/panoptes-subject-uploader)
+11. Upload subjects with smaller manifest.csv in batches using [Panoptes-CLI](https://github.com/zooniverse/panoptes-cli)
 
 Original full videos copied on hard drive in Adler Planetarium, Citizen Science "HARD DRIVES" drawer, labeled "Arizona BatWatch Full Videos."
 Subjects for August 6, 2011 (uploaded, subject set #6432) and August 20, 2011 (not uploaded to Panoptes) are on a hard drive in same drawer noted, labeled "Arizona BatWatch Subjects."
